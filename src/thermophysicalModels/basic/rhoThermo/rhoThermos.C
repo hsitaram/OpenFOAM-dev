@@ -30,6 +30,7 @@ License
 #include "perfectGas.H"
 #include "incompressiblePerfectGas.H"
 #include "Boussinesq.H"
+#include "bioFluid.H"
 #include "rhoConst.H"
 #include "perfectFluid.H"
 #include "PengRobinsonGas.H"
@@ -219,6 +220,42 @@ makeThermos
     rhoThermo,
     heRhoThermo,
     pureMixture,
+    constTransport,
+    sensibleEnthalpy,
+    hConstThermo,
+    bioFluid,
+    specie
+);
+
+makeThermos
+(
+    rhoThermo,
+    heRhoThermo,
+    pureMixture,
+    sutherlandTransport,
+    sensibleEnthalpy,
+    hConstThermo,
+    bioFluid,
+    specie
+);
+
+makeThermos
+(
+    rhoThermo,
+    heRhoThermo,
+    pureMixture,
+    sutherlandTransport,
+    sensibleEnthalpy,
+    janafThermo,
+    bioFluid,
+    specie
+);
+
+makeThermos
+(
+    rhoThermo,
+    heRhoThermo,
+    pureMixture,
     sutherlandTransport,
     sensibleEnthalpy,
     hConstThermo,
@@ -405,6 +442,42 @@ makeThermos
     sensibleInternalEnergy,
     janafThermo,
     Boussinesq,
+    specie
+);
+
+makeThermos
+(
+    rhoThermo,
+    heRhoThermo,
+    pureMixture,
+    constTransport,
+    sensibleInternalEnergy,
+    hConstThermo,
+    bioFluid,
+    specie
+);
+
+makeThermos
+(
+    rhoThermo,
+    heRhoThermo,
+    pureMixture,
+    sutherlandTransport,
+    sensibleInternalEnergy,
+    hConstThermo,
+    bioFluid,
+    specie
+);
+
+makeThermos
+(
+    rhoThermo,
+    heRhoThermo,
+    pureMixture,
+    sutherlandTransport,
+    sensibleInternalEnergy,
+    janafThermo,
+    bioFluid,
     specie
 );
 
