@@ -145,6 +145,7 @@ $(cellSources)/nbrToCell/nbrToCell.C
 $(cellSources)/zoneToCell/zoneToCell.C
 $(cellSources)/sphereToCell/sphereToCell.C
 $(cellSources)/cylinderToCell/cylinderToCell.C
+$(cellSources)/frustumToCell/frustumToCell.C
 $(cellSources)/faceZoneToCell/faceZoneToCell.C
 $(cellSources)/cylinderAnnulusToCell/cylinderAnnulusToCell.C
 $(cellSources)/targetVolumeToCell/targetVolumeToCell.C
