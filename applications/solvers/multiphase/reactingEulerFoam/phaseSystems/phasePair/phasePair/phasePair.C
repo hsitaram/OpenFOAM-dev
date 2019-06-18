@@ -177,6 +177,8 @@ Foam::tmp<Foam::volScalarField> Foam::phasePair::sigma() const
 Foam::tmp<Foam::volScalarField> Foam::phasePair::Mo() const
 {
     return
+        // Mohammad Rahimi and Hari Sitaraman (NREL)
+        mag(dispersed().rho() - continuous().rho()) / continuous().rho() *
         mag(g())
        *continuous().nu()
        *pow3
