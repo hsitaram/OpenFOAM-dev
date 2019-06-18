@@ -1,6 +1,7 @@
 massTransferModels/massTransferModel/massTransferModel.C
 massTransferModels/massTransferModel/newMassTransferModel.C
 massTransferModels/Frossling/Frossling.C
+massTransferModels/Higbie/Higbie.C
 massTransferModels/sphericalMassTransfer/sphericalMassTransfer.C
 
 surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.C
