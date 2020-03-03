@@ -49,6 +49,7 @@ primitives/Scalar/doubleScalar/doubleScalar.C
 primitives/Scalar/floatScalar/floatScalar.C
 primitives/Scalar/scalar/scalar.C
 primitives/Scalar/scalar/invIncGamma.C
+primitives/Scalar/scalar/incGamma.C
 primitives/Scalar/lists/scalarList.C
 primitives/Scalar/lists/scalarIOList.C
 primitives/Scalar/lists/scalarListIOList.C
